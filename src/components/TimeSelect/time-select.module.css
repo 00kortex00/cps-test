@@ -1,0 +1,37 @@
+.timeSelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    &>div {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    button {
+        border: none;
+        background-color: #333;
+        color: #fff;
+        width: 64px;
+        height: 30px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: .33s;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:disabled,
+        &:hover:disabled {
+            background-color: #433;
+            cursor: not-allowed;
+        }
+
+        &:hover {
+            background-color: #444;
+        }
+    }
+}

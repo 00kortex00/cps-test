@@ -1,0 +1,28 @@
+.clickArea {
+    max-width: 540px;
+    width: 100%;
+    padding: 48px;
+    height: 200px;
+    background-color: #222;
+    border: 2px solid #0f0;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: .33s;
+    outline: none;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #252525;
+    }
+}
+
+.started {
+    border-color: #08e;
+}
+
+.click:hover {
+    transition: .1s;
+    background-color: #08e;
+}
